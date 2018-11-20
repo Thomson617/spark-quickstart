@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="Maven 1" modules="day1-workCount">
+      <parameters>
+        <parameter value="-dependencyfile" />
+        <parameter value="D:\workplace\spark-parent\day1-workCount\target/.scala_dependencies" />
+      </parameters>
+    </profile>
+    <profile name="Maven 2" modules="spark-parent">
+      <parameters>
+        <parameter value="-dependencyfile" />
+        <parameter value="D:\workplace\spark-parent\target/.scala_dependencies" />
+      </parameters>
+    </profile>
+    <profile name="Maven 3" modules="day2-RDD">
+      <parameters>
+        <parameter value="-dependencyfile" />
+        <parameter value="D:\workplace\spark-parent\day2-RDD\target/.scala_dependencies" />
+      </parameters>
+    </profile>
+    <profile name="Maven 4" modules="day4-SparkSQL">
+      <parameters>
+        <parameter value="-dependencyfile" />
+        <parameter value="D:\workplace\spark-parent\day4-SparkSQL\target/.scala_dependencies" />
+      </parameters>
+    </profile>
+    <profile name="Maven 5" modules="day05-SparkStreaming">
+      <parameters>
+        <parameter value="-dependencyfile" />
+        <parameter value="D:\workplace\spark-parent\day5-SparkStreaming\target/.scala_dependencies" />
+      </parameters>
+    </profile>
+    <profile name="Maven 6" modules="day6-StructuredStreaming">
+      <parameters>
+        <parameter value="-dependencyfile" />
+        <parameter value="D:\workplace\spark-parent\day6-StructuredStreaming\target/.scala_dependencies" />
+      </parameters>
+    </profile>
+  </component>
+</project>

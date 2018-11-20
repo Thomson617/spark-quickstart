@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="spark-parent:jar3">
+    <output-path>$PROJECT_DIR$/artifacts/spark_parent_jar3</output-path>
+    <root id="archive" name="spark-parent.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/day2-RDD/src/main/resources/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="day2-RDD" />
+      <element id="module-output" name="spark-parent" />
+    </root>
+  </artifact>
+</component>
